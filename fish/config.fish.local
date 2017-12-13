@@ -1,0 +1,27 @@
+# Env setup
+setenv EDITOR nvim
+
+# Unix
+alias ll        "ls -al"
+alias ln        "ln -v"
+alias mkdir     "mkdir -p"
+alias e         "env \$EDITOR"
+alias v         "env \$VISUAL"
+
+# Git
+alias g         "git"
+alias gs        "git status"
+alias gc        "git commit"
+alias gcm       "git commit -m"
+alias ga        "git add"
+
+alias gres      "git reset HEAD"
+alias grebase   "git rebase"
+alias grebasei  "git rebase -i"
+alias gf        "git fetch"
+alias gchout    "git checkout"
+alias gph       "git push"
+alias gpl       "git pull"
+
+# Pretty print the path
+alias path 'echo $PATH | tr -s " " "\n"'
