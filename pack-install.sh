@@ -12,7 +12,7 @@ SUDO="sudo"
 PKMAN="apt-get"
 PKINSTALL="$PKMAN install -y"
 
-PKS="neovim fish"
+PKS="stow neovim fish"
 
 # Installation
 $SUDO $PKINSTALL $PKS
