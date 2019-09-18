@@ -13,15 +13,15 @@ set autoread
 " ==================== jk ==================================
 " inoremap jk <esc> 
 " ==================== jj ==================================
-" inoremap jj <esc> 
+inoremap jj <esc> 
 " ==================== <Tab> ===============================
 " inoremap <Tab> <esc> 
 
 
 " TODO: Choose the leader key in following, and delete others
 " ==================== , as leader ==========================
-" let mapleader=","
-" let g:mapleader=","
+let mapleader=","
+let g:mapleader=","
 " ==================== ; as leader ==========================
 " let mapleader=";"
 " let g:mapleader=";"
@@ -66,21 +66,21 @@ nnoremap k gk
 " TODO: move quickly
 " If you need to originl J or K , do not map this key. See :help J and :help K
 " ===========================================================
-" nnoremap J 5j
-" nnoremap K 5k
+nnoremap J 5j
+nnoremap K 5k
 
 " TODO:
 " If you need to originl J or K , do not map this key. See :help H and :help L
 " h is move left one char, so using H move leftest char is goot to memorize
 " L is the same way as H
 " ===========================================================
-" nnoremap H ^
-" nnoremap L $
+nnoremap H ^
+nnoremap L $
 
 " TODO: The original u is undo, so use U to redo is easy to memorize
 " If you want to use original U, do not map this key. See :help U
 " ===========================================================
-" nnoremap U :redo<cr>
+nnoremap U :redo<cr>
 
 " TODO: Leader key is important for key combination. The original one is '\'.
 " However, it's quite far and a little untouchable for people. You can replace
