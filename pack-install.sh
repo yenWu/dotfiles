@@ -16,3 +16,13 @@ PKS="stow neovim fish"
 
 # Installation
 $SUDO $PKINSTALL $PKS
+
+# Vim plugin manager
+# - vim-plug (https://github.com/junegunn/vim-plug)
+RED='\033[0;31m'
+NC='\033[0m'
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+echo
+echo -e "Type ${RED}:PlugInstall${NC} in NVIM to install plugin manager"
+echo
