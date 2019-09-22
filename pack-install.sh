@@ -26,3 +26,9 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 echo
 echo -e "Type ${RED}:PlugInstall${NC} in NVIM to install plugin manager"
 echo
+
+#Github module
+echo "Sync the module (oh-my-tmux"
+git submodule init
+git submodule status
+git submodule update
