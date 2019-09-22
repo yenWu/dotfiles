@@ -7,7 +7,7 @@ mkdir -p ~/.tmux
 
 # Use *stow* as a dotfile manager
 
-# Destory symbolic links
+# Install symbolic links
 stow -v -t ~/.config/fish fish
 stow -v -t ~/.config/nvim nvim
 stow -v -t ~/.tmux .tmux
